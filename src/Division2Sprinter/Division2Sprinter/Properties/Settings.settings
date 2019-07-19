@@ -1,0 +1,55 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Division2Sprinter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Instructions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This program will keep you always sprinting in Tom Clancy's The Division 2.
+
+Requirements
+    Gamepad controller (eg. XBox 360/Elite controller)
+
+Setup
+    Change the following settings in the game:
+        Settings &gt; Controls &gt; Toggle to Sprint =&gt; No
+        Settings &gt; Key Mapping &gt; Sprint =&gt; LMB (Left Mouse Button)
+
+    (OPTIONAL)
+    Moving the thumbstick down while sprinting will cause you to
+    do a 180 turn unless you disable the following setting:
+        Settings &gt; Controls &gt; 180 Spin Turn =&gt; Off
+
+Usage
+    Start this program and then start Tom Clancy's The Division 2.
+    Whenever your left thumbstick is over 70% in any direction the
+    left mouse button will be held down, causing you to sprint.
+
+NOTE
+    Start the program with the argument -h for information on how
+    to customize controller, mouse button and threshold. Example:
+    Division2Sprinter.exe -h</Value>
+    </Setting>
+    <Setting Name="ControllerError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ERROR: Controller is not connected.
+Hint: Do you have an XBox 360/Elite controller attached?
+Press any key to quit.</Value>
+    </Setting>
+    <Setting Name="Started" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please switch to Tom Clancy's The Division 2 and enjoy the game.
+Return to this window and press any key to quit.</Value>
+    </Setting>
+    <Setting Name="Sprint" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sprint</Value>
+    </Setting>
+    <Setting Name="Duration" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Duration</Value>
+    </Setting>
+    <Setting Name="AverageDuration" Type="System.String" Scope="User">
+      <Value Profile="(Default)">average duration</Value>
+    </Setting>
+    <Setting Name="ThresholdError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ERROR: Threshold percent is not valid.
+Hint: Threshold percent must be between 25-100.
+Press any key to quit.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
